@@ -1,79 +1,64 @@
 <div align="center">
-  <img src="./assets/threejs-banner.gif" width="100%" alt="Animated cybernetic icosahedron and particles based on the uploaded Stitch Three.js design" />
 
-  <p><strong>Building practical digital products, one commit at a time.</strong></p>
-  <p>
-    <a href="https://github.com/Rezafahmi17?tab=repositories"><img alt="GitHub Projects" src="https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://github.com/Rezafahmi17/Portofolio"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-View%20My%20Work-8B5CF6?style=for-the-badge&logo=react&logoColor=white" /></a>
-    <a href="https://rezafahmi17.github.io/Rezafahmi17/"><img alt="Three.js Interactive Profile" src="https://img.shields.io/badge/Three.js-Live%20Website-0891B2?style=for-the-badge&logo=html5&logoColor=white" /></a>
-  </p>
-  <p><code>JavaScript First</code> &nbsp; · &nbsp; <code>3D Interactive Web</code> &nbsp; · &nbsp; <code>Always Learning</code></p>
+<a href="https://rezafahmi17.github.io/Rezafahmi17/">
+  <img src="./assets/banner-premium-60fps.webp" width="100%" alt="Reza Fahmi Alkhamdani — moving 3D cybernetic polyhedron and particles, 60 fps HD" />
+</a>
+
+<br />
+
+**Building polished digital products with JavaScript.**
+
+<a href="https://rezafahmi17.github.io/Rezafahmi17/"><b>Explore Interactive 3D Website</b></a> · <a href="https://github.com/Rezafahmi17?tab=repositories"><b>All Projects</b></a> · <a href="https://github.com/Rezafahmi17/Portofolio"><b>MotionFolio</b></a>
+
+<sub>JavaScript &nbsp; / &nbsp; React &nbsp; / &nbsp; Next.js &nbsp; / &nbsp; Node.js &nbsp; / &nbsp; Multi-Tenant Systems</sub>
+
 </div>
 
-## About Me
+---
 
-Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya fokus membangun aplikasi web yang responsif, rapi, dan nyaman digunakan. Fokus utama saya adalah **JavaScript**, mulai dari pengembangan frontend hingga aplikasi full-stack.
+### About Me
 
-- ⚡ **Saat ini:** Mengeksplorasi React, Next.js, API, dan sistem **multi-tenant**.
-- 🎨 **Yang saya suka:** Antarmuka modern, animasi, micro-interactions, dan desain yang fungsional.
-- 🛠️ **Jenis proyek:** Sistem pemesanan, marketplace, dashboard manajemen, aplikasi kampus, serta eksperimen AI.
-- 🌱 **Prinsip belajar:** Build, test, improve, repeat.
+Halo! Saya **Reza Fahmi Alkhamdani**, seorang developer yang fokus pada **JavaScript**, tampilan web interaktif, dan pengembangan aplikasi full-stack. Saya senang mengubah ide menjadi produk digital yang responsif dan mudah digunakan — dari dashboard manajemen hingga platform multi-tenant.
 
-## Tech Stack
+### Tools & Technologies
 
 <div align="center">
-  <p><strong>Languages & Frontend</strong></p>
-  <img alt="Languages and frontend: JavaScript HTML CSS React Next.js Vite Tailwind" src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,vite,tailwind&perline=7" />
-  <p><strong>Backend & Data</strong></p>
-  <img alt="Backend and data: Node.js Express MySQL PostgreSQL PHP Python" src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,php,python&perline=6" />
-  <p><strong>Tools & Platforms</strong></p>
-  <img alt="Tools: Git GitHub VS Code Figma Vercel Netlify" src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,netlify&perline=6" />
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,tailwind,html,css&perline=8" alt="JavaScript TypeScript React Next.js Vite Tailwind HTML CSS" />
+
+**Backend & Data**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,php,python&perline=6" alt="Node.js Express MySQL PostgreSQL PHP Python" />
+
+**Developer Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,figma&perline=6" alt="Git GitHub VS Code Vercel Netlify Figma" />
+
 </div>
 
-## Featured Projects
+### Featured Projects
 
-<!-- Semua proyek berikut diarahkan ke repository publik yang diverifikasi pada akun Rezafahmi17. -->
+| Project | What it does | Main Stack |
+|:--|:--|:--|
+| **[MotionFolio](https://github.com/Rezafahmi17/Portofolio)** | Modern animated portfolio with smooth scrolling | `React` `Vite` `GSAP` `Lenis` |
+| **[Kopi Nusantara](https://github.com/Rezafahmi17/kopi-nusantara)** | QR-based cafe ordering and admin dashboard | `React` `Node.js` `MySQL` |
+| **[Cari Makan Web](https://github.com/Rezafahmi17/Cari-Makan-Web)** | Online food orders, cart, and transaction management | `React` `Express` `MySQL` |
+| **[TokoHub](https://github.com/Rezafahmi17/Manajemen-Toko)** | Multi-tenant stores, sales, and rentals | `Next.js` `Express` `PostgreSQL` |
+| **[SIM ORMAWA](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima)** | Multi-tenant campus organization management | `Web` `Multi-Tenant` |
+| **[TemuToko](https://github.com/Rezafahmi17/tokotrif)** | Multi-store COD marketplace prototype | `Next.js` `Express` `MySQL` |
+| **[JEKPOL](https://github.com/Rezafahmi17/jekpol-polinela)** | Campus transportation booking application | `Flutter` `Dart` `PHP` |
+| **[EduMeta AI](https://github.com/Rezafahmi17/chatbot)** | Learning assistant using Gemini | `Python` `Streamlit` |
 
-| Project | Highlight | Stack |
-|:---|:---|:---|
-| **[MotionFolio](https://github.com/Rezafahmi17/Portofolio)** | Interactive portfolio with GSAP animations and Lenis smooth scroll | `React` `Vite` `GSAP` |
-| **[Kopi Nusantara](https://github.com/Rezafahmi17/kopi-nusantara)** | QR-code table ordering and cafe administration | `React` `Node.js` `MySQL` |
-| **[Cari Makan Web](https://github.com/Rezafahmi17/Cari-Makan-Web)** | Food ordering, cart, transaction dashboard and order statuses | `React` `Express` `MySQL` |
-| **[TokoHub](https://github.com/Rezafahmi17/Manajemen-Toko)** | Multi-tenant shop management, product sales and rentals | `Next.js` `Express` `PostgreSQL` |
-| **[SIM ORMAWA](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima)** | Management system for campus organizations, HMJ and HIMA | `Multi-Tenant` `Web` |
-| **[TemuToko](https://github.com/Rezafahmi17/tokotrif)** | Multi-store marketplace prototype using COD transactions | `Next.js` `Socket.IO` `MySQL` |
-| **[JEKPOL](https://github.com/Rezafahmi17/jekpol-polinela)** | Campus ride-ordering mobile application | `Flutter` `Dart` `PHP` |
-| **[EduMeta AI](https://github.com/Rezafahmi17/chatbot)** | AI study assistant with Streamlit and Gemini | `Python` `Streamlit` `Gemini` |
+**More work:** [KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU) · [School Website](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus) · [Other Repositories](https://github.com/Rezafahmi17?tab=repositories)
 
-<p align="center">
-  <a href="https://github.com/Rezafahmi17?tab=repositories"><strong>Explore all public repositories →</strong></a>
-</p>
+### Connect
 
-## More Work
+Open to collaborations, creative frontend development, and full-stack projects.
 
-- **[KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU)** — aplikasi keuangan pribadi dengan visualisasi data dan antarmuka glassmorphism.
-- **[SMA N 1 Rajabasa Permai Plus](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus)** — website sekolah dengan halaman publik dan panel admin.
-- **[Pengelolahan UKM, HMJ, dan HIMA](https://github.com/Rezafahmi17/Pengelolahan-UKM-HMJ-dan-HIMA)** — implementasi manajemen organisasi berbasis multi-tenant menggunakan PHP dan MySQL.
+[GitHub](https://github.com/Rezafahmi17) · [Interactive 3D Profile](https://rezafahmi17.github.io/Rezafahmi17/) · [Portfolio Repository](https://github.com/Rezafahmi17/Portofolio)
 
-## GitHub Activity
+---
 
-<div align="center">
-  <!-- Statistik berasal dari layanan pihak ketiga; jika layanan sedang tidak aktif, gambar bisa sementara tidak tampil. -->
-  <img alt="GitHub language summary" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rezafahmi17&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=c084fc&text_color=bec8db" />
-  <br />
-  <sub>Statistik dapat berubah mengikuti aktivitas repository publik dan ketersediaan penyedia widget.</sub>
-</div>
-
-## Let's Connect
-
-Tertarik berdiskusi tentang **JavaScript**, desain antarmuka, aplikasi web, atau pengembangan produk digital?
-
-<p>
-  <a href="https://github.com/Rezafahmi17">GitHub Profile</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Rezafahmi17/Portofolio">Portfolio Source</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Rezafahmi17?tab=repositories">All Repositories</a>
-</p>
-
-<div align="center"><sub>Based on the uploaded Stitch Three.js scene · GitHub README displays an animated GIF · Full 3D is on GitHub Pages</sub></div>
+<sub>Animated image: native 1440 × 430, 60 fps looping WebP. Full mouse-interactive Three.js version available via GitHub Pages. If the animation is restricted in your browser, switch to the included GIF alternative (`assets/banner-premium-30fps.gif`).</sub>

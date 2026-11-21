@@ -1,37 +1,88 @@
 <!doctype html>
-<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#090e17"><title>Reza Fahmi Alkhamdani — Three.js Profile</title>
-<meta name="description" content="Portfolio JavaScript Reza Fahmi Alkhamdani with Stitch Three.js cybernetic animation and selected GitHub projects.">
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070b14">
+<meta name="description" content="Portfolio Reza Fahmi Alkhamdani: JavaScript developer, 3D, UI/UX, full-stack and real GitHub projects.">
+<title>Reza Fahmi Alkhamdani / Creative Developer</title>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <style>
-:root{color-scheme:dark;--bg:#080c14;--card:#101722;--line:#273043;--text:#f0f1fa;--muted:#a4b1c7;--purple:#bd90ff;--cyan:#62dbeb}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
-a{color:inherit;text-decoration:none}.container{width:min(1100px,calc(100% - 36px));margin-inline:auto}
-header{height:76px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-size:18px;font-weight:800;letter-spacing:-.05em}.brand b{color:var(--cyan)}
-nav{display:flex;align-items:center;gap:26px;color:var(--muted);font-size:13px}nav a:hover{color:#fff}
-.hero{position:relative;isolation:isolate;overflow:hidden;border-radius:20px;border:1px solid #56427e;min-height:425px;background:radial-gradient(ellipse at 81% 35%,#2e1544 0%,transparent 40%),#080d16;box-shadow:0 28px 90px #0006}
-.hero:before{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:linear-gradient(90deg,#090e18 0%,#090e18f4 24%,#090e18aa 43%,transparent 70%)}
-.scene-frame{position:absolute;inset:0;overflow:hidden;z-index:1}.scene-frame iframe{width:100%;height:100%;display:block;border:0;pointer-events:auto;background:transparent}
-.hero-text{pointer-events:none;position:relative;z-index:3;padding:64px 52px 48px;max-width:730px}.hero-text a{pointer-events:auto}
-.flag{display:inline-flex;align-items:center;gap:10px;color:#a8f2d7;background:#182631c4;border:1px solid #2d4e55;padding:7px 13px;border-radius:100px;font:600 11px ui-monospace,monospace;letter-spacing:.08em}.flag:before{content:"";width:6px;height:6px;border-radius:50%;background:#66dfa3;box-shadow:0 0 12px #66dfa3}
-h1{font-size:clamp(39px,5.6vw,69px);line-height:1.08;letter-spacing:-.065em;margin:27px 0 17px;font-weight:800;max-width:700px}h1 span{background:linear-gradient(100deg,#e2caff,#9f9aff,#69f2f1);background-clip:text;color:transparent}
-.lede{max-width:620px;color:#c9d2e3;font-size:17px;line-height:1.7;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}.btn{display:inline-flex;padding:11px 17px;border-radius:9px;font-weight:700;background:linear-gradient(95deg,#8656d5,#257a9f);box-shadow:0 5px 20px #0005}.btn.secondary{border:1px solid #40546a;background:#121e2b}
-.skills{display:flex;gap:9px;flex-wrap:wrap;margin-top:27px}.skills span{font-size:12px;font-weight:600;background:#172132d9;color:#cdd9ea;border:1px solid #364259;padding:5px 11px;border-radius:7px}
-section{padding-top:65px}h2{font-size:24px;letter-spacing:-.035em;margin:0 0 6px}.section-sub{color:var(--muted);margin:0 0 22px}
-.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{border:1px solid var(--line);padding:23px;border-radius:15px;background:linear-gradient(130deg,#151c29,#101620);transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#6e5795}.card .top{display:flex;justify-content:space-between;align-items:center;gap:10px}.card h3{margin:0;font-size:18px;letter-spacing:-.035em}.arrow{color:#8be7ed;font-size:22px}.card p{color:var(--muted);margin:11px 0 18px;font-size:14px}.pill{display:inline-block;color:#c9c1ee;border-radius:6px;border:1px solid #3b3c60;font-size:11px;padding:3px 8px;margin:0 5px 5px 0}
-.stack{display:flex;flex-wrap:wrap;gap:13px;margin-top:20px;align-items:center}.stack img{width:46px;height:46px;object-fit:contain;border:1px solid #344051;border-radius:12px;padding:9px;background:#192334}
-footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--muted);font-size:13px;margin-top:70px;display:flex;justify-content:space-between;gap:20px}
-@media(max-width:700px){header{height:68px}nav{gap:14px;font-size:12px}.hero{min-height:500px}.hero:before{background:linear-gradient(180deg,#090e17dc 0%,#090e179a 68%,#090e17b5 100%)}.hero-text{padding:50px 26px}.lede{font-size:15px}.scene-frame iframe{transform:translateX(18%);width:120%}.cards{grid-template-columns:1fr}footer{flex-direction:column}}
+:root{color-scheme:dark;--bg:#070b14;--fg:#f4f5ff;--muted:#a3b1c9;--cyan:#5ae4f7;--violet:#ac81ff;--stroke:#27344c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--fg);font-family:Inter,"Segoe UI",system-ui,-apple-system,sans-serif}
+a{color:inherit;text-decoration:none}button{font:inherit}::selection{color:#fff;background:#704db2}
+.shell{width:min(1170px,calc(100% - 44px));margin:auto}.top{display:flex;align-items:center;justify-content:space-between;padding:24px 0 27px}.wordmark{font-size:14px;font-weight:750;letter-spacing:.09em}.wordmark span{color:var(--cyan)}.top nav{display:flex;gap:28px;align-items:center;font-size:13px;color:#c7d0e2}.top nav a:hover{color:var(--cyan)}
+.hero{isolation:isolate;position:relative;overflow:hidden;min-height:520px;background:radial-gradient(ellipse at 82% 47%,#2b194a 0%,transparent 50%),linear-gradient(110deg,#090f1c,#0b0e21 70%,#071b25);border:1px solid #564379;border-radius:24px;box-shadow:0 25px 110px #0008, inset 0 0 0 1px #ffffff05;display:flex;align-items:center}
+.hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#070b14e8 0%,#080d1bde 38%,#080d1b05 75%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background-image:radial-gradient(#b2d4fa36 .7px,transparent .7px);background-size:44px 44px;mask-image:linear-gradient(90deg,transparent 35%,#000 100%)}
+#three{position:absolute;inset:0;z-index:0;width:100%;height:100%;display:block;touch-action:pan-y}
+.hero-copy{position:relative;z-index:2;padding:62px 60px;max-width:770px;pointer-events:none}.hero-copy a{pointer-events:auto}.hero-art-fallback{position:absolute;inset:0;z-index:0;pointer-events:none;opacity:.8;background-image:url("./assets/hero-3d-fallback.png");background-repeat:no-repeat;background-position:right center;background-size:auto 92%;transition:opacity .5s}.has-webgl .hero-art-fallback{opacity:0}
+.signal{display:inline-flex;align-items:center;gap:11px;padding:9px 14px;margin-bottom:35px;border:1px solid #47536f;border-radius:28px;background:#141f3280;font:600 11px/1.3 ui-monospace,Consolas,monospace;color:#aaf7df;letter-spacing:.10em}.signal i{display:block;width:7px;height:7px;border-radius:50%;background:#57e6ad;box-shadow:0 0 12px #57e6ad}
+.hero h1{font-size:clamp(45px,5.6vw,79px);line-height:.99;letter-spacing:-.052em;margin:0 0 27px;font-weight:800}.hero h1 span{background:linear-gradient(100deg,#dcb6ff,#aaa2fc,#64e3f2);background-clip:text;color:transparent}
+.hero p{font-size:16px;color:#c6d1e5;line-height:1.85;max-width:550px;margin:0}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:35px}.btn{padding:13px 19px;border-radius:10px;font-size:13px;font-weight:750;background:linear-gradient(105deg,#9562e9,#247f9c);box-shadow:0 9px 30px #25143d70}.btn.alt{background:#172238c2;border:1px solid #4a5570;box-shadow:none}.btn:hover{filter:brightness(1.15)}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:37px}.pills span{padding:7px 12px;border:1px solid #495471;background:#161e35a3;border-radius:8px;font-size:12px;color:#c9d7f2}
+.note{display:flex;gap:9px;align-items:center;color:#7b8eae;font-size:12px;margin:13px 0 82px}.note i{height:6px;width:6px;border-radius:50%;background:#5debba}
+section{padding-top:26px;padding-bottom:65px}section h2{font-size:29px;letter-spacing:-.04em;margin:0 0 8px}.sub{margin:0 0 26px;color:var(--muted);font-size:14px}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.card{min-height:225px;display:flex;flex-direction:column;padding:22px;background:linear-gradient(145deg,#141b2a,#0c1424);border:1px solid #283a53;border-radius:16px;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}.card:hover{transform:translateY(-5px);border-color:#886bcb;box-shadow:0 20px 38px #0004}.ctop{display:flex;justify-content:space-between;gap:12px;align-items:center}.ctop h3{font-size:17px;margin:0}.arr{color:#72def1;font-size:22px}.card p{color:#aab8cd;line-height:1.65;font-size:13px;flex:1}.tech{font:600 11px ui-monospace,Consolas,monospace;color:#c4abff}
+.stack{display:flex;flex-wrap:wrap;gap:9px}.stack span{border:1px solid #314059;border-radius:8px;background:#131c2d;padding:11px 14px;font-size:13px;color:#c7d2ec}footer{display:flex;justify-content:space-between;gap:24px;padding:26px 0 35px;border-top:1px solid #24334a;font-size:12px;color:#8393b0}
+@media(max-width:980px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-copy{padding:50px 38px}.hero::before{background:linear-gradient(90deg,#080c16f5,#080c16dd 51%,transparent)}}
+@media(max-width:640px){.shell{width:calc(100% - 28px)}.top{padding:18px 0}.top nav{gap:12px;font-size:11px}.hero{min-height:620px;align-items:flex-start}.hero-copy{padding:46px 24px}.hero h1{font-size:clamp(45px,10vw,62px)}.hero p{font-size:14px}.hero::before{background:linear-gradient(180deg,#070b14f5 2%,#070b14e6 60%,#080c18aa)}.hero-art-fallback{background-position:55% 100%;background-size:auto 60%;opacity:.58}.cards{grid-template-columns:1fr}.note{margin-bottom:45px}.pills{gap:7px}.pills span{padding:7px 10px}footer{flex-direction:column}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
 </style></head><body>
-<header class="container"><div class="brand">REZA<span style="color:#62dbeb">.</span>FAHMI <b>/ DEV</b></div><nav><a href="#projects">Projects</a><a href="#skills">Stack</a><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
-<main class="container"><div class="hero"><div class="scene-frame" aria-hidden="true"><iframe title="Original Stitch Three.js 3D scene" src="./stitch-threejs.html" loading="eager" tabindex="-1"></iframe></div><div class="hero-text"><div class="flag">FULL STACK EXPLORER / JAVASCRIPT FIRST</div><h1>Reza Fahmi <span>Alkhamdani.</span></h1><p class="lede">Frontend Developer &amp; Creative Builder. Saya membuat pengalaman digital modern dengan JavaScript, React, Node.js dan aplikasi multi-tenant.</p><div class="actions"><a class="btn" href="#projects">Lihat Projek ↗</a><a class="btn secondary" href="https://github.com/Rezafahmi17?tab=repositories" target="_blank" rel="noopener">Repositori GitHub</a></div><div class="skills"><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span></div></div></div>
-<section id="projects"><h2>Featured Projects</h2><p class="section-sub">Proyek nyata yang tersedia di GitHub Rezafahmi17.</p><div class="cards">
-<a class="card" href="https://github.com/Rezafahmi17/Portofolio" target="_blank" rel="noopener"><div class="top"><h3>MotionFolio</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Portofolio animasi dan motion menggunakan GSAP, Lenis, dan React.</p><span class="pill">React · GSAP · Vite</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/kopi-nusantara" target="_blank" rel="noopener"><div class="top"><h3>Kopi Nusantara</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Pemesanan kopi dengan QR per meja dan dashboard admin.</p><span class="pill">React · Node.js · MySQL</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/Cari-Makan-Web" target="_blank" rel="noopener"><div class="top"><h3>Cari Makan Web</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Sistem pemesanan makanan dengan transaksi dan manajemen pesanan.</p><span class="pill">React · Express · MySQL</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/Manajemen-Toko" target="_blank" rel="noopener"><div class="top"><h3>TokoHub</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Manajemen toko multi-tenant untuk penjualan dan penyewaan produk.</p><span class="pill">Next.js · Express · PostgreSQL</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima" target="_blank" rel="noopener"><div class="top"><h3>SIM ORMAWA</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Sistem informasi untuk HIMA, HMJ, dan UKM berbasis multi-tenant.</p><span class="pill">Multi-Tenant · Campus</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/tokotrif" target="_blank" rel="noopener"><div class="top"><h3>TemuToko</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Marketplace multi-toko berbasis COD dan pengelolaan penjual.</p><span class="pill">Next.js · Socket.IO · MySQL</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/jekpol-polinela" target="_blank" rel="noopener"><div class="top"><h3>JEKPOL</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Aplikasi mobile transportasi kampus dengan driver dan customer.</p><span class="pill">Flutter · Dart · PHP</span></a>
-<a class="card" href="https://github.com/Rezafahmi17/chatbot" target="_blank" rel="noopener"><div class="top"><h3>EduMeta AI</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Chatbot asisten belajar menggunakan Gemini API dan Streamlit.</p><span class="pill">Python · Streamlit · Gemini</span></a>
-</div></section><section id="skills"><h2>Tech Stack</h2><p class="section-sub">Bahasa, tools, dan framework yang saya gunakan.</p>
-<div class="stack"><img src="https://skillicons.dev/icons?i=js" alt="js" loading="lazy"><img src="https://skillicons.dev/icons?i=react" alt="react" loading="lazy"><img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" loading="lazy"><img src="https://skillicons.dev/icons?i=vite" alt="vite" loading="lazy"><img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" loading="lazy"><img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" loading="lazy"><img src="https://skillicons.dev/icons?i=express" alt="express" loading="lazy"><img src="https://skillicons.dev/icons?i=mysql" alt="mysql" loading="lazy"><img src="https://skillicons.dev/icons?i=postgres" alt="postgres" loading="lazy"><img src="https://skillicons.dev/icons?i=git" alt="git" loading="lazy"><img src="https://skillicons.dev/icons?i=github" alt="github" loading="lazy"><img src="https://skillicons.dev/icons?i=vscode" alt="vscode" loading="lazy"></div></section></main><footer class="container"><span>© 2026 Reza Fahmi Alkhamdani — Based on the original Stitch Three.js scene.</span><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">GitHub Rezafahmi17 ↗</a></footer></body></html>
+<header class="top shell"><div class="wordmark">REZA<span>.</span>FAHMI <span style="color:#7f92b1">/ DEV</span></div><nav><a href="#work">Work</a><a href="#stack">Tech Stack</a><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
+<main class="shell">
+<div class="hero" id="hero"><div class="hero-art-fallback" aria-hidden="true"></div><canvas id="three" aria-hidden="true"></canvas><div class="hero-copy"><span class="signal"><i></i> BUILDING WITH JAVASCRIPT</span><h1>Reza Fahmi<br><span>Alkhamdani.</span></h1><p>Frontend Developer &amp; Full-Stack Explorer.<br>Crafting thoughtful interfaces, interactive 3D experiences, and digital products built to be used.</p><div class="actions"><a class="btn" href="#work">Explore Projects ↗</a><a class="btn alt" href="https://github.com/Rezafahmi17?tab=repositories" target="_blank" rel="noopener">GitHub Repositories</a></div><div class="pills"><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span></div></div></div>
+<div class="note"><i></i> Interactive Three.js visual based on the original Stitch scene. Move your cursor to explore.</div>
+<section id="work"><h2>Selected Work</h2><p class="sub">Live source projects from my public GitHub repositories.</p><div class="cards">
+<a class="card" href="https://github.com/Rezafahmi17/Portofolio" target="_blank" rel="noopener"><div class="ctop"><h3>MotionFolio</h3><span class="arr">↗</span></div><p>Interactive portfolio with scroll motion and reusable React components.</p><span class="tech">React · GSAP · Vite</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/kopi-nusantara" target="_blank" rel="noopener"><div class="ctop"><h3>Kopi Nusantara</h3><span class="arr">↗</span></div><p>QR table ordering and cafe management with admin tools.</p><span class="tech">React · Node.js · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/Cari-Makan-Web" target="_blank" rel="noopener"><div class="ctop"><h3>Cari Makan Web</h3><span class="arr">↗</span></div><p>Customer ordering, cart, transactions and order status.</p><span class="tech">React · Express · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/Manajemen-Toko" target="_blank" rel="noopener"><div class="ctop"><h3>TokoHub</h3><span class="arr">↗</span></div><p>Multi-tenant management for product sales, rentals, and reporting.</p><span class="tech">Next.js · Express · PostgreSQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima" target="_blank" rel="noopener"><div class="ctop"><h3>SIM ORMAWA</h3><span class="arr">↗</span></div><p>Systems for HIMA, HMJ, campus organizations, and administration.</p><span class="tech">Multi-Tenant · Campus</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/tokotrif" target="_blank" rel="noopener"><div class="ctop"><h3>TemuToko</h3><span class="arr">↗</span></div><p>Multi-store marketplace and cash-on-delivery workflows.</p><span class="tech">Next.js · Socket.IO · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/jekpol-polinela" target="_blank" rel="noopener"><div class="ctop"><h3>JEKPOL</h3><span class="arr">↗</span></div><p>Ride-ordering app for students, drivers and campus administration.</p><span class="tech">Flutter · Dart · PHP</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/chatbot" target="_blank" rel="noopener"><div class="ctop"><h3>EduMeta AI</h3><span class="arr">↗</span></div><p>Learning assistant with an LLM-backed chat and study tools.</p><span class="tech">Python · Streamlit · Gemini</span></a>
+</div></section><section id="stack"><h2>Developer Toolkit</h2><p class="sub">Technologies used in projects and current learning.</p><div class="stack"><span>JavaScript</span><span>TypeScript</span><span>React</span><span>Next.js</span><span>Tailwind CSS</span><span>GSAP</span><span>Vite</span><span>Node.js</span><span>Express.js</span><span>MySQL</span><span>PostgreSQL</span><span>Flutter</span><span>Python</span><span>Git</span></div></section>
+</main><footer class="shell"><span>© 2026 Reza Fahmi Alkhamdani. Designed with precision.</span><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">github.com/Rezafahmi17 ↗</a></footer>
+<script>
+// Based on the precise geometry, colors, and motion principles of the supplied Stitch code.html.
+// Three.js loaded from a CDN only; the rest of the website remains usable without it.
+const canvas=document.getElementById('three');
+const hero=document.getElementById('hero');
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
+if(!reduce.matches){
+ const tag=document.createElement('script');tag.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+ tag.onload=()=>{
+  try{
+   const scene=new THREE.Scene();
+   const camera=new THREE.PerspectiveCamera(58,1,.1,100);
+   camera.position.set(0,0,24);
+   const renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true,powerPreference:'high-performance'});
+   renderer.setClearColor(0x000000,0);renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+   const group=new THREE.Group();scene.add(group);
+   const outer=new THREE.Mesh(new THREE.IcosahedronGeometry(4.2,1),new THREE.MeshBasicMaterial({color:0x8c92ed,wireframe:true,transparent:true,opacity:.42}));group.add(outer);
+   const core=new THREE.Mesh(new THREE.IcosahedronGeometry(2.4,0),new THREE.MeshPhongMaterial({color:0xa855f7,emissive:0x3b0764,shininess:90,flatShading:true,transparent:true,opacity:.94}));group.add(core);
+   scene.add(new THREE.AmbientLight(0xffffff,.64));
+   const p1=new THREE.PointLight(0xa855f7,2,50);p1.position.set(8,9,10);scene.add(p1);
+   const p2=new THREE.PointLight(0x06b6d4,1.8,50);p2.position.set(-8,-7,12);scene.add(p2);
+   const ring=new THREE.Mesh(new THREE.TorusGeometry(6.5,.04,8,96),new THREE.MeshBasicMaterial({color:0x06b6d4,transparent:true,opacity:.68}));ring.rotation.x=Math.PI/3;group.add(ring);
+   const rng=(i)=>{const x=Math.sin(i*78.233+12.34)*43758.5453;return x-Math.floor(x)};
+   const positions=new Float32Array(165*3),speed=new Float32Array(165*3);
+   for(let i=0;i<165;i++){positions[i*3]=(rng(i*3)-.5)*45;positions[i*3+1]=(rng(i*3+1)-.5)*20;positions[i*3+2]=(rng(i*3+2)-.5)*20;speed[i*3]=(.2+rng(i+25)*.5)*.13;speed[i*3+1]=(.1+rng(i+39)*.3)*.10;speed[i*3+2]=(.1+rng(i+51)*.3)*.04}
+   const geo=new THREE.BufferGeometry();geo.setAttribute('position',new THREE.BufferAttribute(positions,3));
+   const particles=new THREE.Points(geo,new THREE.PointsMaterial({size:.07,color:0xae8ef7,transparent:true,opacity:.8,depthWrite:false}));scene.add(particles);
+   let mouseX=0,mouseY=0,smx=0,smy=0,raf=0,last=0,elapsed=0,visible=true;
+   const move=(e)=>{const box=hero.getBoundingClientRect();mouseX=(e.clientX-box.left)/box.width-.5;mouseY=(e.clientY-box.top)/box.height-.5};hero.addEventListener('pointermove',move,{passive:true});
+   function resize(){const w=hero.clientWidth,h=hero.clientHeight;if(!w||!h)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();const mobile=w<710;group.position.x=mobile?3.2:6.4;group.position.y=mobile?-3.2:0;group.scale.setScalar(mobile?.82:1)}
+   const observer=new ResizeObserver(resize);observer.observe(hero);resize();
+   const v=geo.attributes.position;
+   function tick(ts){if(!visible)return;if(!last)last=ts;const delta=Math.min((ts-last)/1000,.05);last=ts;elapsed+=delta;
+    smx+=(mouseX-smx)*.07;smy+=(mouseY-smy)*.07;
+    group.rotation.y=elapsed*.24+smx*.65;group.rotation.x=Math.sin(elapsed*.26)*.14-smy*.5;
+    ring.rotation.z=-elapsed*.32;
+    for(let i=0;i<165;i++){let x=v.getX(i)+speed[i*3]*delta,y=v.getY(i)+speed[i*3+1]*delta,z=v.getZ(i)+speed[i*3+2]*delta;if(x>24)x=-24;if(y>11)y=-11;if(z>11)z=-11;v.setXYZ(i,x,y,z)}v.needsUpdate=true;
+    renderer.render(scene,camera);if(!hero.classList.contains('has-webgl'))hero.classList.add('has-webgl');raf=requestAnimationFrame(tick)}
+   function onVisibility(){visible=!document.hidden;if(visible){last=0;raf=requestAnimationFrame(tick)}else cancelAnimationFrame(raf)}
+   document.addEventListener('visibilitychange',onVisibility);raf=requestAnimationFrame(tick);
+  }catch(e){console.warn('Three.js unavailable, static visual fallback active',e)}
+ };document.head.appendChild(tag);
+}
+</script></body></html>
