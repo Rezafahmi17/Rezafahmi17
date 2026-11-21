@@ -1,186 +1,79 @@
 <div align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Cyber Obsidian — Reza Fahmi Alkhamdani, JavaScript and full-stack developer" />
 
-# Reza Fahmi Alkhamdani
-
-### Frontend Developer | Web Designer | AI Project Enthusiast
-
-Saya adalah developer yang fokus membangun website modern, responsif, interaktif, dan mudah digunakan. Saya memiliki pengalaman membuat project berbasis web seperti website portofolio, landing page bisnis, sistem pemesanan makanan, chatbot AI, dan dashboard sederhana.
-
+  <p><strong>Building practical digital products, one commit at a time.</strong></p>
+  <p>
+    <a href="https://github.com/Rezafahmi17?tab=repositories"><img alt="GitHub Projects" src="https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://github.com/Rezafahmi17/Portofolio"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-View%20My%20Work-8B5CF6?style=for-the-badge&logo=react&logoColor=white" /></a>
+    <a href="https://github.com/Rezafahmi17/Rezafahmi17/tree/main/docs"><img alt="Interactive Profile Source" src="https://img.shields.io/badge/Cyber%20Obsidian-Site%20Source-0891B2?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  </p>
+  <p><code>JavaScript First</code> &nbsp; · &nbsp; <code>UI / UX Focused</code> &nbsp; · &nbsp; <code>Always Learning</code></p>
 </div>
 
----
+## 👨‍💻 About Me
 
-## Tentang Saya
+Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya tertarik membangun aplikasi web yang responsif, mudah digunakan, dan memiliki pengalaman antarmuka yang berkesan. Fokus saya adalah **JavaScript**, mulai dari desain frontend sampai pengembangan aplikasi full-stack.
 
-Saya tertarik pada pengembangan website modern dengan tampilan yang rapi, responsif, dan profesional. Dalam beberapa project, saya terbiasa menggunakan JavaScript, React, Vite, Tailwind CSS, Python, dan Streamlit.
+- ⚡ **Saat ini:** Mengeksplorasi React, Next.js, API, dan sistem **multi-tenant**.
+- 🎨 **Yang saya suka:** Antarmuka modern, animasi, micro-interactions, dan desain yang fungsional.
+- 🛠️ **Jenis proyek:** Sistem pemesanan, marketplace, dashboard manajemen, aplikasi kampus, serta eksperimen AI.
+- 🌱 **Prinsip belajar:** Build, test, improve, repeat.
 
-Fokus utama saya adalah membuat project nyata yang bisa digunakan, dipresentasikan, dan dikembangkan menjadi produk digital yang lebih profesional.
-
----
-
-## Keahlian Utama
-
-| Bidang | Keahlian |
-|---|---|
-| Frontend Development | HTML, CSS, JavaScript, React, Vite |
-| Styling Website | Tailwind CSS, Responsive Design, Dark Theme, Glassmorphism |
-| UI/UX Design | Landing Page, Portfolio Design, Dashboard Layout |
-| Backend Dasar | Node.js, Express, API sederhana |
-| Database | MySQL, SQL Server, Supabase |
-| AI Project | Chatbot AI, Streamlit, Integrasi API AI |
-| Tools | Git, GitHub, Netlify, Vercel, VS Code |
-
----
-
-## Project Unggulan
-
-### 1. Portfolio Website
-
-Website portofolio pribadi untuk menampilkan profil, skill, project, sertifikat, dan kontak secara profesional. Project ini dibuat dengan tampilan modern, responsif, dan cocok untuk personal branding sebagai developer.
-
-**Fitur utama:**
-
-- Hero section modern
-- Tampilan responsive untuk HP, tablet, dan desktop
-- Section skill, project, sertifikat, dan kontak
-- Desain dark theme modern
-- Cocok untuk deploy ke Netlify atau Vercel
-
-**Teknologi:**
-
-```txt
-React, Vite, Tailwind CSS, JavaScript
-````
-
----
-
-### 2. Kopi Nusantara
-
-Website bertema kopi Nusantara yang dibuat sebagai landing page produk atau brand UMKM. Project ini menampilkan informasi produk, tampilan visual yang menarik, serta layout yang cocok untuk promosi bisnis kopi.
-
-**Fitur utama:**
-
-* Landing page produk kopi
-* Tampilan modern dan sederhana
-* Section informasi produk
-* Cocok untuk bisnis UMKM
-* Responsive design
-
-**Teknologi:**
-
-```txt
-HTML, CSS, JavaScript
-```
-
----
-
-### 3. Kedai Nusantara BDL
-
-Project website untuk menampilkan informasi kedai atau bisnis kuliner lokal. Website ini dirancang agar pengguna dapat melihat informasi produk, menu, dan identitas bisnis secara mudah.
-
-**Fitur utama:**
-
-* Tampilan bisnis kuliner
-* Informasi menu atau produk
-* Desain sederhana dan mudah dipahami
-* Cocok untuk usaha lokal
-* Struktur website rapi
-
-**Teknologi:**
-
-```txt
-JavaScript, HTML, CSS
-```
-
----
-
-### 4. Cari Makan Web
-
-Project website pencarian makanan yang membantu pengguna menemukan pilihan makanan dengan tampilan yang simpel dan mudah digunakan. Project ini dapat dikembangkan menjadi aplikasi kuliner berbasis web.
-
-**Fitur utama:**
-
-* Tampilan daftar makanan
-* Konsep pencarian atau rekomendasi makanan
-* UI sederhana dan user friendly
-* Cocok dikembangkan menjadi full stack app
-* Bisa ditambahkan fitur admin dan CRUD
-
-**Teknologi:**
-
-```txt
-JavaScript, HTML, CSS
-```
-
----
-
-### 5. Chatbot AI
-
-Project chatbot berbasis AI yang dibuat untuk membantu pengguna mendapatkan jawaban secara interaktif. Project ini cocok untuk pembelajaran AI, integrasi API, dan pengembangan asisten digital sederhana.
-
-**Fitur utama:**
-
-* Chatbot interaktif
-* Tampilan sederhana
-* Dapat dikembangkan menggunakan API AI
-* Cocok untuk edukasi dan demo project
-* Bisa dijalankan menggunakan Streamlit
-
-**Teknologi:**
-
-```txt
-Python, Streamlit, AI API
-```
-
----
-
-## Fokus Pengembangan
-
-Saat ini saya sedang meningkatkan kemampuan dalam:
-
-| Fokus          | Tujuan                                                 |
-| -------------- | ------------------------------------------------------ |
-| React JS       | Membuat website modern dan interaktif                  |
-| Tailwind CSS   | Membuat UI yang rapi, cepat, dan responsive            |
-| Full Stack Web | Menghubungkan frontend, backend, dan database          |
-| AI Integration | Membuat chatbot dan aplikasi berbasis AI               |
-| Deployment     | Mempublikasikan project ke Netlify, Vercel, dan GitHub |
-
----
-
-## Sertifikasi dan Pembelajaran
-
-Saya terus mengembangkan kemampuan melalui pembelajaran mandiri, praktik langsung, dan pembuatan project nyata. Beberapa bidang yang saya pelajari berkaitan dengan:
-
-* Web Development
-* Frontend Development
-* UI/UX Design
-* Artificial Intelligence
-* Database dan SQL
-* Deployment Project
-
----
-
-## Tujuan Saya
-
-Tujuan saya adalah menjadi developer yang mampu membangun project digital yang tidak hanya berjalan dengan baik, tetapi juga memiliki tampilan menarik, responsif, dan mudah digunakan oleh pengguna.
-
-Saya percaya bahwa kemampuan terbaik seorang developer dibangun dari proses belajar, praktik, evaluasi, dan konsisten membuat project nyata.
-
----
-
-## Kontak
-
-| Platform | Informasi                                                   |
-| -------- | ----------------------------------------------------------- |
-| GitHub   | github.com/Rezafahmi17                                      |
-| Email    | [rezaalkhamdani@gmail.com](mailto:rezaalkhamdani@gmail.com) |
-| Lokasi   | Indonesia                                                   |
-
----
+## 🧰 Tech Stack
 
 <div align="center">
-
-### Build real projects, improve every day, and keep learning.
-
+  <p><strong>Languages & Frontend</strong></p>
+  <img alt="Languages and frontend: JavaScript HTML CSS React Next.js Vite Tailwind" src="https://skillicons.dev/icons?i=js,html,css,react,nextjs,vite,tailwind&perline=7" />
+  <p><strong>Backend & Data</strong></p>
+  <img alt="Backend and data: Node.js Express MySQL PostgreSQL PHP Python" src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,php,python&perline=6" />
+  <p><strong>Tools & Platforms</strong></p>
+  <img alt="Tools: Git GitHub VS Code Figma Vercel Netlify" src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,netlify&perline=6" />
 </div>
+
+## 🚀 Selected Projects
+
+<!-- Semua proyek berikut diarahkan ke repository publik yang diverifikasi pada akun Rezafahmi17. -->
+
+| | |
+|:--:|:--:|
+| [<img alt="MotionFolio" src="./assets/Portofolio.svg" width="100%" />](https://github.com/Rezafahmi17/Portofolio) | [<img alt="Kopi Nusantara" src="./assets/kopi-nusantara.svg" width="100%" />](https://github.com/Rezafahmi17/kopi-nusantara) |
+| **MotionFolio**  <br />Portofolio interaktif dengan animasi GSAP, smooth scrolling Lenis, dan React.<br />`React · Vite · GSAP · Lenis` | **Kopi Nusantara**  <br />Pemesanan kopi melalui QR per meja, dashboard admin, dan pengelolaan menu.<br />`React · Vite · Node.js · MySQL` |
+| [<img alt="Cari Makan Web" src="./assets/Cari-Makan-Web.svg" width="100%" />](https://github.com/Rezafahmi17/Cari-Makan-Web) | [<img alt="TokoHub" src="./assets/Manajemen-Toko.svg" width="100%" />](https://github.com/Rezafahmi17/Manajemen-Toko) |
+| **Cari Makan Web**  <br />Aplikasi pemesanan makanan, keranjang, status pesanan, dan panel transaksi.<br />`React · Express · MySQL` | **TokoHub**  <br />Platform pengelolaan banyak toko untuk penjualan, penyewaan, dan laporan.<br />`Next.js · Express · PostgreSQL` |
+| [<img alt="SIM ORMAWA" src="./assets/pengelolaan-ormawa-hmj-dan-hima.svg" width="100%" />](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima) | [<img alt="TemuToko" src="./assets/tokotrif.svg" width="100%" />](https://github.com/Rezafahmi17/tokotrif) |
+| **SIM ORMAWA**  <br />Pengelolaan organisasi mahasiswa, HMJ, HIMA, program kerja, dan inventaris.<br />`Multi-tenant · Campus Management` | **TemuToko**  <br />Prototipe marketplace multi-toko dengan transaksi COD dan pengelolaan penjual.<br />`Next.js · Express · Socket.IO · MySQL` |
+| [<img alt="JEKPOL" src="./assets/jekpol-polinela.svg" width="100%" />](https://github.com/Rezafahmi17/jekpol-polinela) | [<img alt="EduMeta AI" src="./assets/chatbot.svg" width="100%" />](https://github.com/Rezafahmi17/chatbot) |
+| **JEKPOL**  <br />Aplikasi pemesanan ojek kampus dengan peran penumpang, driver, dan admin.<br />`Flutter · Dart · PHP · MySQL` | **EduMeta AI**  <br />Chatbot pembelajaran Data Science, Python, SQL, dan final project.<br />`Python · Streamlit · Gemini API` |
+
+<p align="center">
+  <a href="https://github.com/Rezafahmi17?tab=repositories"><strong>Explore all public repositories →</strong></a>
+</p>
+
+## 📌 More Work
+
+- **[KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU)** — aplikasi keuangan pribadi dengan visualisasi data dan antarmuka glassmorphism.
+- **[SMA N 1 Rajabasa Permai Plus](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus)** — website sekolah dengan halaman publik dan panel admin.
+- **[Pengelolahan UKM, HMJ, dan HIMA](https://github.com/Rezafahmi17/Pengelolahan-UKM-HMJ-dan-HIMA)** — implementasi manajemen organisasi berbasis multi-tenant menggunakan PHP dan MySQL.
+
+## 📊 GitHub Activity
+
+<div align="center">
+  <!-- Statistik berasal dari layanan pihak ketiga; jika layanan sedang tidak aktif, gambar bisa sementara tidak tampil. -->
+  <img alt="GitHub language summary" height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rezafahmi17&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=c084fc&text_color=bec8db" />
+  <br />
+  <sub>Statistik dapat berubah mengikuti aktivitas repository publik dan ketersediaan penyedia widget.</sub>
+</div>
+
+## 🤝 Let's Connect
+
+Tertarik berdiskusi tentang **JavaScript**, desain antarmuka, aplikasi web, atau pengembangan produk digital?
+
+<p>
+  <a href="https://github.com/Rezafahmi17">GitHub Profile</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Rezafahmi17/Portofolio">Portfolio Source</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Rezafahmi17?tab=repositories">All Repositories</a>
+</p>
+
+<div align="center"><sub>Designed with the Cyber Obsidian aesthetic · Based on real repositories · No fabricated GitHub metrics</sub></div>
