@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Cyber Obsidian — Reza Fahmi Alkhamdani, JavaScript and full-stack developer" />
+  <img src="./assets/threejs-banner.gif" width="100%" alt="Animated cybernetic icosahedron and particles based on the uploaded Stitch Three.js design" />
 
   <p><strong>Building practical digital products, one commit at a time.</strong></p>
   <p>
     <a href="https://github.com/Rezafahmi17?tab=repositories"><img alt="GitHub Projects" src="https://img.shields.io/badge/GitHub-Explore%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
     <a href="https://github.com/Rezafahmi17/Portofolio"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-View%20My%20Work-8B5CF6?style=for-the-badge&logo=react&logoColor=white" /></a>
-    <a href="https://github.com/Rezafahmi17/Rezafahmi17/tree/main/docs"><img alt="Interactive Profile Source" src="https://img.shields.io/badge/Cyber%20Obsidian-Site%20Source-0891B2?style=for-the-badge&logo=html5&logoColor=white" /></a>
+    <a href="https://rezafahmi17.github.io/Rezafahmi17/"><img alt="Three.js Interactive Profile" src="https://img.shields.io/badge/Three.js-Live%20Website-0891B2?style=for-the-badge&logo=html5&logoColor=white" /></a>
   </p>
-  <p><code>JavaScript First</code> &nbsp; · &nbsp; <code>UI / UX Focused</code> &nbsp; · &nbsp; <code>Always Learning</code></p>
+  <p><code>JavaScript First</code> &nbsp; · &nbsp; <code>3D Interactive Web</code> &nbsp; · &nbsp; <code>Always Learning</code></p>
 </div>
 
-## 👨‍💻 About Me
+## About Me
 
-Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya tertarik membangun aplikasi web yang responsif, mudah digunakan, dan memiliki pengalaman antarmuka yang berkesan. Fokus saya adalah **JavaScript**, mulai dari desain frontend sampai pengembangan aplikasi full-stack.
+Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya fokus membangun aplikasi web yang responsif, rapi, dan nyaman digunakan. Fokus utama saya adalah **JavaScript**, mulai dari pengembangan frontend hingga aplikasi full-stack.
 
 - ⚡ **Saat ini:** Mengeksplorasi React, Next.js, API, dan sistem **multi-tenant**.
 - 🎨 **Yang saya suka:** Antarmuka modern, animasi, micro-interactions, dan desain yang fungsional.
 - 🛠️ **Jenis proyek:** Sistem pemesanan, marketplace, dashboard manajemen, aplikasi kampus, serta eksperimen AI.
 - 🌱 **Prinsip belajar:** Build, test, improve, repeat.
 
-## 🧰 Tech Stack
+## Tech Stack
 
 <div align="center">
   <p><strong>Languages & Frontend</strong></p>
@@ -30,32 +30,32 @@ Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya tertarik membangun a
   <img alt="Tools: Git GitHub VS Code Figma Vercel Netlify" src="https://skillicons.dev/icons?i=git,github,vscode,figma,vercel,netlify&perline=6" />
 </div>
 
-## 🚀 Selected Projects
+## Featured Projects
 
 <!-- Semua proyek berikut diarahkan ke repository publik yang diverifikasi pada akun Rezafahmi17. -->
 
-| | |
-|:--:|:--:|
-| [<img alt="MotionFolio" src="./assets/Portofolio.svg" width="100%" />](https://github.com/Rezafahmi17/Portofolio) | [<img alt="Kopi Nusantara" src="./assets/kopi-nusantara.svg" width="100%" />](https://github.com/Rezafahmi17/kopi-nusantara) |
-| **MotionFolio**  <br />Portofolio interaktif dengan animasi GSAP, smooth scrolling Lenis, dan React.<br />`React · Vite · GSAP · Lenis` | **Kopi Nusantara**  <br />Pemesanan kopi melalui QR per meja, dashboard admin, dan pengelolaan menu.<br />`React · Vite · Node.js · MySQL` |
-| [<img alt="Cari Makan Web" src="./assets/Cari-Makan-Web.svg" width="100%" />](https://github.com/Rezafahmi17/Cari-Makan-Web) | [<img alt="TokoHub" src="./assets/Manajemen-Toko.svg" width="100%" />](https://github.com/Rezafahmi17/Manajemen-Toko) |
-| **Cari Makan Web**  <br />Aplikasi pemesanan makanan, keranjang, status pesanan, dan panel transaksi.<br />`React · Express · MySQL` | **TokoHub**  <br />Platform pengelolaan banyak toko untuk penjualan, penyewaan, dan laporan.<br />`Next.js · Express · PostgreSQL` |
-| [<img alt="SIM ORMAWA" src="./assets/pengelolaan-ormawa-hmj-dan-hima.svg" width="100%" />](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima) | [<img alt="TemuToko" src="./assets/tokotrif.svg" width="100%" />](https://github.com/Rezafahmi17/tokotrif) |
-| **SIM ORMAWA**  <br />Pengelolaan organisasi mahasiswa, HMJ, HIMA, program kerja, dan inventaris.<br />`Multi-tenant · Campus Management` | **TemuToko**  <br />Prototipe marketplace multi-toko dengan transaksi COD dan pengelolaan penjual.<br />`Next.js · Express · Socket.IO · MySQL` |
-| [<img alt="JEKPOL" src="./assets/jekpol-polinela.svg" width="100%" />](https://github.com/Rezafahmi17/jekpol-polinela) | [<img alt="EduMeta AI" src="./assets/chatbot.svg" width="100%" />](https://github.com/Rezafahmi17/chatbot) |
-| **JEKPOL**  <br />Aplikasi pemesanan ojek kampus dengan peran penumpang, driver, dan admin.<br />`Flutter · Dart · PHP · MySQL` | **EduMeta AI**  <br />Chatbot pembelajaran Data Science, Python, SQL, dan final project.<br />`Python · Streamlit · Gemini API` |
+| Project | Highlight | Stack |
+|:---|:---|:---|
+| **[MotionFolio](https://github.com/Rezafahmi17/Portofolio)** | Interactive portfolio with GSAP animations and Lenis smooth scroll | `React` `Vite` `GSAP` |
+| **[Kopi Nusantara](https://github.com/Rezafahmi17/kopi-nusantara)** | QR-code table ordering and cafe administration | `React` `Node.js` `MySQL` |
+| **[Cari Makan Web](https://github.com/Rezafahmi17/Cari-Makan-Web)** | Food ordering, cart, transaction dashboard and order statuses | `React` `Express` `MySQL` |
+| **[TokoHub](https://github.com/Rezafahmi17/Manajemen-Toko)** | Multi-tenant shop management, product sales and rentals | `Next.js` `Express` `PostgreSQL` |
+| **[SIM ORMAWA](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima)** | Management system for campus organizations, HMJ and HIMA | `Multi-Tenant` `Web` |
+| **[TemuToko](https://github.com/Rezafahmi17/tokotrif)** | Multi-store marketplace prototype using COD transactions | `Next.js` `Socket.IO` `MySQL` |
+| **[JEKPOL](https://github.com/Rezafahmi17/jekpol-polinela)** | Campus ride-ordering mobile application | `Flutter` `Dart` `PHP` |
+| **[EduMeta AI](https://github.com/Rezafahmi17/chatbot)** | AI study assistant with Streamlit and Gemini | `Python` `Streamlit` `Gemini` |
 
 <p align="center">
   <a href="https://github.com/Rezafahmi17?tab=repositories"><strong>Explore all public repositories →</strong></a>
 </p>
 
-## 📌 More Work
+## More Work
 
 - **[KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU)** — aplikasi keuangan pribadi dengan visualisasi data dan antarmuka glassmorphism.
 - **[SMA N 1 Rajabasa Permai Plus](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus)** — website sekolah dengan halaman publik dan panel admin.
 - **[Pengelolahan UKM, HMJ, dan HIMA](https://github.com/Rezafahmi17/Pengelolahan-UKM-HMJ-dan-HIMA)** — implementasi manajemen organisasi berbasis multi-tenant menggunakan PHP dan MySQL.
 
-## 📊 GitHub Activity
+## GitHub Activity
 
 <div align="center">
   <!-- Statistik berasal dari layanan pihak ketiga; jika layanan sedang tidak aktif, gambar bisa sementara tidak tampil. -->
@@ -64,7 +64,7 @@ Halo! Saya **Reza Fahmi Alkhamdani** (`@Rezafahmi17`). Saya tertarik membangun a
   <sub>Statistik dapat berubah mengikuti aktivitas repository publik dan ketersediaan penyedia widget.</sub>
 </div>
 
-## 🤝 Let's Connect
+## Let's Connect
 
 Tertarik berdiskusi tentang **JavaScript**, desain antarmuka, aplikasi web, atau pengembangan produk digital?
 
@@ -76,4 +76,4 @@ Tertarik berdiskusi tentang **JavaScript**, desain antarmuka, aplikasi web, atau
   <a href="https://github.com/Rezafahmi17?tab=repositories">All Repositories</a>
 </p>
 
-<div align="center"><sub>Designed with the Cyber Obsidian aesthetic · Based on real repositories · No fabricated GitHub metrics</sub></div>
+<div align="center"><sub>Based on the uploaded Stitch Three.js scene · GitHub README displays an animated GIF · Full 3D is on GitHub Pages</sub></div>

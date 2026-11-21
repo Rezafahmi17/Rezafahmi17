@@ -1,126 +1,37 @@
 <!doctype html>
-<html lang="id"><head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#0d1117" />
-  <meta name="description" content="Developer portfolio of Reza Fahmi Alkhamdani — JavaScript, frontend, full-stack and multi-tenant projects." />
-  <title>Reza Fahmi Alkhamdani — Developer Portfolio</title>
-  <style>
-    :root{color-scheme:dark;--bg:#0d1117;--card:#151b25;--panel:#101622;--border:#2d3444;--text:#edf2ff;--muted:#a2adc0;--purple:#a78bfa;--cyan:#67e8f9}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6;min-width:320px}
-    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 85% 10%,#61328b16,transparent 38%),radial-gradient(ellipse at 2% 60%,#137c8510,transparent 30%);z-index:-1}
-    a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}
-    .topbar{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-    .brand{font:700 16px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:-.03em}.brand span{color:var(--cyan)}
-    nav{display:flex;gap:24px;font-size:13px;color:var(--muted)}nav a:hover{color:var(--text)}
-    .toplink{border:1px solid #415064;background:#17202c;padding:8px 14px;border-radius:8px;font-size:12px;white-space:nowrap}
-    .hero{border:1px solid #50416e;border-radius:20px;position:relative;overflow:hidden;background:linear-gradient(115deg,#0f1220,#11172b 55%,#081d27);min-height:375px;box-shadow:0 15px 80px #0005}
-    #scene{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.8}.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0d1220 2%,#0d1220ed 38%,transparent 86%);pointer-events:none}
-    .hero-inner{position:relative;z-index:2;padding:56px 55px;width:min(790px,100%)}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:#b1f3d7;background:#203f3920;border:1px solid #345f57;border-radius:50px;padding:6px 13px;font:600 11px ui-monospace,Consolas,monospace;letter-spacing:.08em}.eyebrow:before{content:"";height:7px;width:7px;background:#4ade80;border-radius:50%;box-shadow:0 0 12px #4ade80}
-    .hero h1{font-size:clamp(33px,4vw,58px);line-height:1.09;letter-spacing:-.045em;margin:22px 0 13px}.hero h1 strong{display:block;background:linear-gradient(90deg,#fafaff 5%,#c9adff 57%,#74e6fb);background-clip:text;-webkit-background-clip:text;color:transparent;font-weight:800}
-    .hero p{font-size:16px;color:#c0c6d6;max-width:610px;margin:0 0 26px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:12px 18px;border-radius:9px;font-size:13px;font-weight:700;border:1px solid #625687;background:#a78bfa;color:#11121a;transition:transform .18s ease,box-shadow .18s ease}.btn:hover{transform:translateY(-2px);box-shadow:0 4px 20px #9b69ea50}.btn.secondary{color:#e1d7ff;background:#252134}
-    .meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:23px;color:#a9b1c3;font:11px ui-monospace,Consolas,monospace}.meta span{border:1px solid #41475c;background:#151c2bb0;border-radius:6px;padding:5px 9px}
-    main{padding-bottom:100px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:60px 0 20px}.section-heading h2{font-size:24px;letter-spacing:-.03em;margin:0 0 4px}.section-heading p{color:var(--muted);font-size:13px;margin:0}.section-heading a{color:#c0a5ff;font-size:13px;white-space:nowrap}
-    .intro{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}.panel{background:linear-gradient(140deg,#171c28,#111823);border:1px solid var(--border);border-radius:14px;padding:24px}.panel p{color:var(--muted);font-size:14px;margin:9px 0 0}.panel h3{font-size:17px;margin:0}.code{font:13px ui-monospace,SFMono-Regular,Consolas,monospace;color:#c4e2fa;white-space:pre-wrap;line-height:1.8}.token{color:#be94ff}.val{color:#7de0ed}.comment{color:#718299}
-    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.chip{border:1px solid #353b4a;border-radius:7px;background:#101622;color:#c3cadd;font:12px ui-monospace,Consolas,monospace;padding:7px 9px}
-    .filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid #384052;border-radius:8px;background:#171d29;color:#b7c0d3;font:12px ui-monospace,Consolas,monospace;padding:8px 10px;cursor:pointer}.filter[aria-pressed=true]{border-color:#a78bfa;color:#e6d6ff;background:#382657}
-    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.project-card{min-width:0;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:#141923;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}.project-card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 9px 30px #0005}.project-card img{display:block;width:100%;height:auto;aspect-ratio:620/235;object-fit:cover}.card-bottom{padding:15px 18px 17px;display:flex;justify-content:space-between;gap:8px}.card-bottom strong{font-size:15px}.card-bottom p{color:#a3afc1;font-size:12px;margin:4px 0 0}.card-bottom>span{font-size:25px;color:var(--accent)}
-    .footer{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #2f3544;padding:25px 0 35px;color:var(--muted);font:12px ui-monospace,Consolas,monospace}.footer a{color:#c5a6ff}
-    @media(max-width:760px){.wrap{width:min(100% - 24px,560px)}nav{display:none}.topbar{height:64px}.hero-inner{padding:34px 24px}.hero{min-height:390px}.hero:after{background:linear-gradient(90deg,#0d1220fa,#0d1220c7 75%,#0d122078)}.intro,.cards{grid-template-columns:1fr}.section-heading{align-items:start;flex-direction:column;gap:11px}.footer{flex-direction:column}.hero h1{font-size:36px}.hero p{font-size:14px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.project-card{transition:none}}
-  </style>
-</head><body>
-<header class="topbar wrap"><a class="brand" href="https://github.com/Rezafahmi17">&lt;Reza<span>Fahmi</span> /&gt;</a>
- <nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#stack">Tech Stack</a></nav>
- <a class="toplink" href="https://github.com/Rezafahmi17" target="_blank" rel="noopener noreferrer">GitHub ↗</a></header>
-<main class="wrap">
- <section class="hero" aria-label="Developer introduction"><canvas id="scene" aria-hidden="true"></canvas><div class="hero-inner">
-  <span class="eyebrow">BUILDING WITH JAVASCRIPT</span>
-  <h1>Hi there, I'm <strong>Reza Fahmi Alkhamdani.</strong></h1>
-  <p>Frontend developer &amp; full-stack learner. I turn ideas into clean interfaces, useful systems, and polished digital products.</p>
-  <div class="actions"><a href="#projects" class="btn">Explore Projects ↗</a><a class="btn secondary" href="https://github.com/Rezafahmi17?tab=repositories" target="_blank" rel="noopener noreferrer">See GitHub Repos</a></div>
-  <div class="meta"><span>⚡ React / Next.js</span><span>⌘ Node.js / APIs</span><span>◎ Multi-Tenant Systems</span></div>
- </div></section>
- <section id="about"><div class="section-heading"><div><h2>01 / About</h2><p>Developer profile, based on public GitHub repositories.</p></div></div>
- <div class="intro"><div class="panel"><h3>Creative builds, practical code.</h3><p>Saya Reza Fahmi Alkhamdani, berfokus pada pengembangan web berbasis JavaScript, desain UI/UX, aplikasi full-stack, dan pengelolaan sistem. Saya belajar dengan membangun proyek nyata: mulai dari landing page hingga marketplace, dashboard kampus, dan eksperimen AI.</p><div class="chips"><span class="chip">UI / UX</span><span class="chip">Full Stack</span><span class="chip">Multi-Tenant</span><span class="chip">JavaScript</span></div></div>
- <div class="panel code"><span class="comment">// developer.config.js</span>
-<span class="token">const</span> developer = {
-  name: <span class="val">"Reza Fahmi"</span>,
-  focus: <span class="val">"JavaScript"</span>,
-  philosophy: <span class="val">"build → test → improve"</span>,
-  location: <span class="val">"Indonesia"</span>
-};</div></div></section>
- <section id="projects"><div class="section-heading"><div><h2>02 / Featured Work</h2><p>Real projects available in Rezafahmi17's repositories.</p></div><div class="filters" id="filters" role="group" aria-label="Filter projects">
- <button class="filter" data-filter="All" aria-pressed="true">All</button><button class="filter" data-filter="Frontend" aria-pressed="false">Frontend</button><button class="filter" data-filter="Full Stack" aria-pressed="false">Full Stack</button><button class="filter" data-filter="SaaS" aria-pressed="false">SaaS</button><button class="filter" data-filter="Mobile" aria-pressed="false">Mobile</button><button class="filter" data-filter="AI" aria-pressed="false">AI</button></div></div>
- <div class="cards" id="projectCards"><a class="project-card" data-type="Frontend" href="https://github.com/Rezafahmi17/Portofolio" target="_blank" rel="noopener noreferrer" style="--accent:#a78bfa">
-   <img src="./assets/Portofolio.svg" loading="lazy" alt="MotionFolio" />
-   <div class="card-bottom"><div><strong>MotionFolio</strong><p>Portofolio interaktif dengan animasi GSAP, smooth scrolling Lenis, dan React.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="Full Stack" href="https://github.com/Rezafahmi17/kopi-nusantara" target="_blank" rel="noopener noreferrer" style="--accent:#f59e0b">
-   <img src="./assets/kopi-nusantara.svg" loading="lazy" alt="Kopi Nusantara" />
-   <div class="card-bottom"><div><strong>Kopi Nusantara</strong><p>Pemesanan kopi melalui QR per meja, dashboard admin, dan pengelolaan menu.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="Full Stack" href="https://github.com/Rezafahmi17/Cari-Makan-Web" target="_blank" rel="noopener noreferrer" style="--accent:#22d3ee">
-   <img src="./assets/Cari-Makan-Web.svg" loading="lazy" alt="Cari Makan Web" />
-   <div class="card-bottom"><div><strong>Cari Makan Web</strong><p>Aplikasi pemesanan makanan, keranjang, status pesanan, dan panel transaksi.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="SaaS" href="https://github.com/Rezafahmi17/Manajemen-Toko" target="_blank" rel="noopener noreferrer" style="--accent:#c084fc">
-   <img src="./assets/Manajemen-Toko.svg" loading="lazy" alt="TokoHub" />
-   <div class="card-bottom"><div><strong>TokoHub</strong><p>Platform pengelolaan banyak toko untuk penjualan, penyewaan, dan laporan.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="SaaS" href="https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima" target="_blank" rel="noopener noreferrer" style="--accent:#2dd4bf">
-   <img src="./assets/pengelolaan-ormawa-hmj-dan-hima.svg" loading="lazy" alt="SIM ORMAWA" />
-   <div class="card-bottom"><div><strong>SIM ORMAWA</strong><p>Pengelolaan organisasi mahasiswa, HMJ, HIMA, program kerja, dan inventaris.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="Full Stack" href="https://github.com/Rezafahmi17/tokotrif" target="_blank" rel="noopener noreferrer" style="--accent:#fb7185">
-   <img src="./assets/tokotrif.svg" loading="lazy" alt="TemuToko" />
-   <div class="card-bottom"><div><strong>TemuToko</strong><p>Prototipe marketplace multi-toko dengan transaksi COD dan pengelolaan penjual.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="Mobile" href="https://github.com/Rezafahmi17/jekpol-polinela" target="_blank" rel="noopener noreferrer" style="--accent:#60a5fa">
-   <img src="./assets/jekpol-polinela.svg" loading="lazy" alt="JEKPOL" />
-   <div class="card-bottom"><div><strong>JEKPOL</strong><p>Aplikasi pemesanan ojek kampus dengan peran penumpang, driver, dan admin.</p></div><span aria-hidden="true">↗</span></div>
-  </a>
-<a class="project-card" data-type="AI" href="https://github.com/Rezafahmi17/chatbot" target="_blank" rel="noopener noreferrer" style="--accent:#4ade80">
-   <img src="./assets/chatbot.svg" loading="lazy" alt="EduMeta AI" />
-   <div class="card-bottom"><div><strong>EduMeta AI</strong><p>Chatbot pembelajaran Data Science, Python, SQL, dan final project.</p></div><span aria-hidden="true">↗</span></div>
-  </a></div>
- </section>
- <section id="stack"><div class="section-heading"><div><h2>03 / Toolkit</h2><p>Technologies used across my public projects.</p></div></div>
- <div class="panel"><div class="chips"><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Next.js</span><span class="chip">Vite</span><span class="chip">Tailwind CSS</span><span class="chip">GSAP</span><span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Flutter / Dart</span><span class="chip">Python / Streamlit</span><span class="chip">Git & GitHub</span></div></div></section>
-</main>
-<footer class="wrap footer"><span>© 2026 Reza Fahmi Alkhamdani · Cyber Obsidian</span><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener noreferrer">github.com/Rezafahmi17 ↗</a></footer>
-<script>
-  // Filters are interactive, but the cards remain useful even without JavaScript.
-  document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-    const filter=button.dataset.filter;
-    document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
-    document.querySelectorAll('.project-card').forEach(card=>{card.hidden=filter!=='All' && card.dataset.type!==filter});
-  }));
-  // Optional Three.js effect from the Stitch reference. No build tooling required.
-  // This page works without the CDN; the hero retains its CSS gradient.
-  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    const s=document.createElement('script'); s.src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'; s.defer=true;
-    s.onload=()=>{
-      try {
-        const canvas=document.getElementById('scene');
-        const host=canvas.parentElement;
-        const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(55,1,.1,100);
-        camera.position.set(0,0,19);
-        const renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true});
-        renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
-        const object=new THREE.Group();object.position.x=5.4;scene.add(object);
-        const geo=new THREE.IcosahedronGeometry(4,1),mat=new THREE.MeshBasicMaterial({color:0xaa79f7,wireframe:true,transparent:true,opacity:.55});
-        object.add(new THREE.Mesh(geo,mat));
-        const torus=new THREE.Mesh(new THREE.TorusGeometry(5.9,.027,8,90),new THREE.MeshBasicMaterial({color:0x56dfe9,transparent:true,opacity:.6}));torus.rotation.set(.5,.3,0);object.add(torus);
-        const positions=[];for(let i=0;i<130;i++)positions.push((Math.random()-.5)*38,(Math.random()-.5)*19,(Math.random()-.5)*10);
-        const starsGeo=new THREE.BufferGeometry();starsGeo.setAttribute('position',new THREE.Float32BufferAttribute(positions,3));
-        scene.add(new THREE.Points(starsGeo,new THREE.PointsMaterial({size:.06,color:0x9ba7ff,transparent:true,opacity:.78})));
-        const resize=()=>{const w=host.clientWidth,h=host.clientHeight;if(!w||!h)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();object.position.x=w<740?3:5.4};
-        resize();const observer=new ResizeObserver(resize);observer.observe(host);
-        let raf;let active=true;let t=0;function tick(){if(!active)return;t+=.004;object.rotation.y=t;object.rotation.x=Math.sin(t*.65)*.17;torus.rotation.z=t*.55;renderer.render(scene,camera);raf=requestAnimationFrame(tick)}tick();
-        document.addEventListener('visibilitychange',()=>{if(document.hidden){active=false;cancelAnimationFrame(raf)}else if(!active){active=true;tick()}});
-      }catch(err){/* CSS fallback is intentional */}
-    };document.head.appendChild(s);
-  }
-</script>
-</body></html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#090e17"><title>Reza Fahmi Alkhamdani — Three.js Profile</title>
+<meta name="description" content="Portfolio JavaScript Reza Fahmi Alkhamdani with Stitch Three.js cybernetic animation and selected GitHub projects.">
+<style>
+:root{color-scheme:dark;--bg:#080c14;--card:#101722;--line:#273043;--text:#f0f1fa;--muted:#a4b1c7;--purple:#bd90ff;--cyan:#62dbeb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:inherit;text-decoration:none}.container{width:min(1100px,calc(100% - 36px));margin-inline:auto}
+header{height:76px;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-size:18px;font-weight:800;letter-spacing:-.05em}.brand b{color:var(--cyan)}
+nav{display:flex;align-items:center;gap:26px;color:var(--muted);font-size:13px}nav a:hover{color:#fff}
+.hero{position:relative;isolation:isolate;overflow:hidden;border-radius:20px;border:1px solid #56427e;min-height:425px;background:radial-gradient(ellipse at 81% 35%,#2e1544 0%,transparent 40%),#080d16;box-shadow:0 28px 90px #0006}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;z-index:2;background:linear-gradient(90deg,#090e18 0%,#090e18f4 24%,#090e18aa 43%,transparent 70%)}
+.scene-frame{position:absolute;inset:0;overflow:hidden;z-index:1}.scene-frame iframe{width:100%;height:100%;display:block;border:0;pointer-events:auto;background:transparent}
+.hero-text{pointer-events:none;position:relative;z-index:3;padding:64px 52px 48px;max-width:730px}.hero-text a{pointer-events:auto}
+.flag{display:inline-flex;align-items:center;gap:10px;color:#a8f2d7;background:#182631c4;border:1px solid #2d4e55;padding:7px 13px;border-radius:100px;font:600 11px ui-monospace,monospace;letter-spacing:.08em}.flag:before{content:"";width:6px;height:6px;border-radius:50%;background:#66dfa3;box-shadow:0 0 12px #66dfa3}
+h1{font-size:clamp(39px,5.6vw,69px);line-height:1.08;letter-spacing:-.065em;margin:27px 0 17px;font-weight:800;max-width:700px}h1 span{background:linear-gradient(100deg,#e2caff,#9f9aff,#69f2f1);background-clip:text;color:transparent}
+.lede{max-width:620px;color:#c9d2e3;font-size:17px;line-height:1.7;margin:0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:29px}.btn{display:inline-flex;padding:11px 17px;border-radius:9px;font-weight:700;background:linear-gradient(95deg,#8656d5,#257a9f);box-shadow:0 5px 20px #0005}.btn.secondary{border:1px solid #40546a;background:#121e2b}
+.skills{display:flex;gap:9px;flex-wrap:wrap;margin-top:27px}.skills span{font-size:12px;font-weight:600;background:#172132d9;color:#cdd9ea;border:1px solid #364259;padding:5px 11px;border-radius:7px}
+section{padding-top:65px}h2{font-size:24px;letter-spacing:-.035em;margin:0 0 6px}.section-sub{color:var(--muted);margin:0 0 22px}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{border:1px solid var(--line);padding:23px;border-radius:15px;background:linear-gradient(130deg,#151c29,#101620);transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#6e5795}.card .top{display:flex;justify-content:space-between;align-items:center;gap:10px}.card h3{margin:0;font-size:18px;letter-spacing:-.035em}.arrow{color:#8be7ed;font-size:22px}.card p{color:var(--muted);margin:11px 0 18px;font-size:14px}.pill{display:inline-block;color:#c9c1ee;border-radius:6px;border:1px solid #3b3c60;font-size:11px;padding:3px 8px;margin:0 5px 5px 0}
+.stack{display:flex;flex-wrap:wrap;gap:13px;margin-top:20px;align-items:center}.stack img{width:46px;height:46px;object-fit:contain;border:1px solid #344051;border-radius:12px;padding:9px;background:#192334}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--muted);font-size:13px;margin-top:70px;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:700px){header{height:68px}nav{gap:14px;font-size:12px}.hero{min-height:500px}.hero:before{background:linear-gradient(180deg,#090e17dc 0%,#090e179a 68%,#090e17b5 100%)}.hero-text{padding:50px 26px}.lede{font-size:15px}.scene-frame iframe{transform:translateX(18%);width:120%}.cards{grid-template-columns:1fr}footer{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+</style></head><body>
+<header class="container"><div class="brand">REZA<span style="color:#62dbeb">.</span>FAHMI <b>/ DEV</b></div><nav><a href="#projects">Projects</a><a href="#skills">Stack</a><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
+<main class="container"><div class="hero"><div class="scene-frame" aria-hidden="true"><iframe title="Original Stitch Three.js 3D scene" src="./stitch-threejs.html" loading="eager" tabindex="-1"></iframe></div><div class="hero-text"><div class="flag">FULL STACK EXPLORER / JAVASCRIPT FIRST</div><h1>Reza Fahmi <span>Alkhamdani.</span></h1><p class="lede">Frontend Developer &amp; Creative Builder. Saya membuat pengalaman digital modern dengan JavaScript, React, Node.js dan aplikasi multi-tenant.</p><div class="actions"><a class="btn" href="#projects">Lihat Projek ↗</a><a class="btn secondary" href="https://github.com/Rezafahmi17?tab=repositories" target="_blank" rel="noopener">Repositori GitHub</a></div><div class="skills"><span>JavaScript</span><span>React</span><span>Next.js</span><span>Node.js</span></div></div></div>
+<section id="projects"><h2>Featured Projects</h2><p class="section-sub">Proyek nyata yang tersedia di GitHub Rezafahmi17.</p><div class="cards">
+<a class="card" href="https://github.com/Rezafahmi17/Portofolio" target="_blank" rel="noopener"><div class="top"><h3>MotionFolio</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Portofolio animasi dan motion menggunakan GSAP, Lenis, dan React.</p><span class="pill">React · GSAP · Vite</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/kopi-nusantara" target="_blank" rel="noopener"><div class="top"><h3>Kopi Nusantara</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Pemesanan kopi dengan QR per meja dan dashboard admin.</p><span class="pill">React · Node.js · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/Cari-Makan-Web" target="_blank" rel="noopener"><div class="top"><h3>Cari Makan Web</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Sistem pemesanan makanan dengan transaksi dan manajemen pesanan.</p><span class="pill">React · Express · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/Manajemen-Toko" target="_blank" rel="noopener"><div class="top"><h3>TokoHub</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Manajemen toko multi-tenant untuk penjualan dan penyewaan produk.</p><span class="pill">Next.js · Express · PostgreSQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima" target="_blank" rel="noopener"><div class="top"><h3>SIM ORMAWA</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Sistem informasi untuk HIMA, HMJ, dan UKM berbasis multi-tenant.</p><span class="pill">Multi-Tenant · Campus</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/tokotrif" target="_blank" rel="noopener"><div class="top"><h3>TemuToko</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Marketplace multi-toko berbasis COD dan pengelolaan penjual.</p><span class="pill">Next.js · Socket.IO · MySQL</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/jekpol-polinela" target="_blank" rel="noopener"><div class="top"><h3>JEKPOL</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Aplikasi mobile transportasi kampus dengan driver dan customer.</p><span class="pill">Flutter · Dart · PHP</span></a>
+<a class="card" href="https://github.com/Rezafahmi17/chatbot" target="_blank" rel="noopener"><div class="top"><h3>EduMeta AI</h3><span class="arrow" aria-hidden="true">↗</span></div><p>Chatbot asisten belajar menggunakan Gemini API dan Streamlit.</p><span class="pill">Python · Streamlit · Gemini</span></a>
+</div></section><section id="skills"><h2>Tech Stack</h2><p class="section-sub">Bahasa, tools, dan framework yang saya gunakan.</p>
+<div class="stack"><img src="https://skillicons.dev/icons?i=js" alt="js" loading="lazy"><img src="https://skillicons.dev/icons?i=react" alt="react" loading="lazy"><img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" loading="lazy"><img src="https://skillicons.dev/icons?i=vite" alt="vite" loading="lazy"><img src="https://skillicons.dev/icons?i=tailwind" alt="tailwind" loading="lazy"><img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" loading="lazy"><img src="https://skillicons.dev/icons?i=express" alt="express" loading="lazy"><img src="https://skillicons.dev/icons?i=mysql" alt="mysql" loading="lazy"><img src="https://skillicons.dev/icons?i=postgres" alt="postgres" loading="lazy"><img src="https://skillicons.dev/icons?i=git" alt="git" loading="lazy"><img src="https://skillicons.dev/icons?i=github" alt="github" loading="lazy"><img src="https://skillicons.dev/icons?i=vscode" alt="vscode" loading="lazy"></div></section></main><footer class="container"><span>© 2026 Reza Fahmi Alkhamdani — Based on the original Stitch Three.js scene.</span><a href="https://github.com/Rezafahmi17" target="_blank" rel="noopener">GitHub Rezafahmi17 ↗</a></footer></body></html>
