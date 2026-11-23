@@ -114,14 +114,26 @@
 
 <br>
 
+## <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="48px" height="48px" alt="Contributions" /> My Contributions & Live Activity
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&duration=2600&pause=800&color=7FFF00&center=true&vCenter=true&width=720&height=34&lines=%F0%9F%90%8D+144+Contributions+in+2026+%E2%80%94+Snake+%26+Pac-Man+Walking+Grid;%E2%9A%A1+Active+Across+19+Public+Repositories+%26+Full-Stack+Projects;%F0%9F%9A%80+Consistent+Commits+in+JavaScript%2C+TypeScript%2C+Flutter+%26+Python" alt="Contribution Status" />
+</div>
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rezafahmi17/Rezafahmi17/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rezafahmi17/Rezafahmi17/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/YhonV/YhonV/master/assets/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg" />
+    <img width="100%" alt="Animated GitHub Contribution Grid Snake & Pac-Man" src="./assets/github-contribution-grid-snake-dark.svg" />
   </picture>
 </p>
 
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rezafahmi17&theme=chartreuse-dark&hide_border=false&area=true&custom_title=Reza%20Fahmi%20Alkhamdani's%20Contribution%20Activity%20Graph" alt="Reza Fahmi Alkhamdani's Contribution Activity Graph" />
+</p>
+
 <div align="center">
-  <sub>🐍 Contribution snake updates automatically via GitHub Actions · <a href="https://rezafahmi17.github.io/Rezafahmi17/"><b>Interactive 3D Version</b></a> · <a href="https://github.com/Rezafahmi17?tab=repositories"><b>View All 19 Repositories</b></a></sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38C2FF,50:7FFF00,100:39D353&height=110&section=footer&text=Thanks%20for%20Visiting%20%40Rezafahmi17!&fontSize=24&fontColor=ffffff&animation=twinkling&fontAlignY=68" width="100%" alt="Animated Waving Footer" />
+  <br>
+  <sub>🐍 Live Contribution Snake &amp; Pac-Man Grid · <a href="https://rezafahmi17.github.io/Rezafahmi17/"><b>Interactive 3D Version</b></a> · <a href="https://github.com/Rezafahmi17?tab=repositories"><b>View All 19 Repositories</b></a></sub>
 </div>
