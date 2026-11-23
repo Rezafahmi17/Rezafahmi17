@@ -1,64 +1,127 @@
 <div align="center">
-
-<a href="https://rezafahmi17.github.io/Rezafahmi17/">
-  <img src="./assets/banner-premium-60fps.webp" width="100%" alt="Reza Fahmi Alkhamdani — moving 3D cybernetic polyhedron and particles, 60 fps HD" />
-</a>
-
-<br />
-
-**Building polished digital products with JavaScript.**
-
-<a href="https://rezafahmi17.github.io/Rezafahmi17/"><b>Explore Interactive 3D Website</b></a> · <a href="https://github.com/Rezafahmi17?tab=repositories"><b>All Projects</b></a> · <a href="https://github.com/Rezafahmi17/Portofolio"><b>MotionFolio</b></a>
-
-<sub>JavaScript &nbsp; / &nbsp; React &nbsp; / &nbsp; Next.js &nbsp; / &nbsp; Node.js &nbsp; / &nbsp; Multi-Tenant Systems</sub>
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=42&center=true&vCenter=true&height=65&width=780&lines=Heyyy!+I'm+Reza+Fahmi+Alkhamdani;Full-Stack+%26+Creative+Web+Developer!;Welcome+to+my+GitHub+profile!" alt="Typing Title" />
 </div>
 
----
-
-### About Me
-
-Halo! Saya **Reza Fahmi Alkhamdani**, seorang developer yang fokus pada **JavaScript**, tampilan web interaktif, dan pengembangan aplikasi full-stack. Saya senang mengubah ide menjadi produk digital yang responsif dan mudah digunakan — dari dashboard manajemen hingga platform multi-tenant.
-
-### Tools & Technologies
+<br>
 
 <div align="center">
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,tailwind,html,css&perline=8" alt="JavaScript TypeScript React Next.js Vite Tailwind HTML CSS" />
-
-**Backend & Data**
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mysql,postgres,php,python&perline=6" alt="Node.js Express MySQL PostgreSQL PHP Python" />
-
-**Developer Tools**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,netlify,figma&perline=6" alt="Git GitHub VS Code Vercel Netlify Figma" />
-
+  <img src="https://raw.githubusercontent.com/ashu-guo/ashu-guo/master/assets/fly.webp" height="120px" alt="Nyan Octocat Banner" />
 </div>
 
-### Featured Projects
+## <img src="https://raw.githubusercontent.com/ashu-guo/ashu-guo/main/assets/wave.gif" width="50px" height="50px" alt="Wave" /> About Me
 
-| Project | What it does | Main Stack |
-|:--|:--|:--|
-| **[MotionFolio](https://github.com/Rezafahmi17/Portofolio)** | Modern animated portfolio with smooth scrolling | `React` `Vite` `GSAP` `Lenis` |
-| **[Kopi Nusantara](https://github.com/Rezafahmi17/kopi-nusantara)** | QR-based cafe ordering and admin dashboard | `React` `Node.js` `MySQL` |
-| **[Cari Makan Web](https://github.com/Rezafahmi17/Cari-Makan-Web)** | Online food orders, cart, and transaction management | `React` `Express` `MySQL` |
-| **[TokoHub](https://github.com/Rezafahmi17/Manajemen-Toko)** | Multi-tenant stores, sales, and rentals | `Next.js` `Express` `PostgreSQL` |
-| **[SIM ORMAWA](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima)** | Multi-tenant campus organization management | `Web` `Multi-Tenant` |
-| **[TemuToko](https://github.com/Rezafahmi17/tokotrif)** | Multi-store COD marketplace prototype | `Next.js` `Express` `MySQL` |
-| **[JEKPOL](https://github.com/Rezafahmi17/jekpol-polinela)** | Campus transportation booking application | `Flutter` `Dart` `PHP` |
-| **[EduMeta AI](https://github.com/Rezafahmi17/chatbot)** | Learning assistant using Gemini | `Python` `Streamlit` |
+<table align="center">
+  <tr border="none">
+    <td width="52%" align="left">
 
-**More work:** [KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU) · [School Website](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus) · [Other Repositories](https://github.com/Rezafahmi17?tab=repositories)
+- 🔭 I’m currently working as a `Full-Stack` & `Frontend` Developer.
+- 🌱 I’m currently building `Multi-Tenant Web Apps`, `Interactive UI`, and `Flutter Mobile` projects :D
+- 💻 Focused on `JavaScript`, `TypeScript`, `React`, `Next.js`, `Node.js`, `Flutter`, & `Python`.
+- 🌐 Interactive 3D Portfolio: **[Explore 3D Profile](https://rezafahmi17.github.io/Rezafahmi17/)** · **[MotionFolio Live](https://portofolio-reza-fahmi-alkhamdani.netlify.app/)**
+- 📍 From Indonesia 🇮🇩.
 
-### Connect
+    </td>
+    <td width="48%" align="center">
+      <img align="center" alt="Coding" width="450" src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e" />
+    </td>
+  </tr>
+</table>
 
-Open to collaborations, creative frontend development, and full-stack projects.
+## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px" alt="Tools" /> Languages and Tools
 
-[GitHub](https://github.com/Rezafahmi17) · [Interactive 3D Profile](https://rezafahmi17.github.io/Rezafahmi17/) · [Portfolio Repository](https://github.com/Rezafahmi17/Portofolio)
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+  </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
+  </a>
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/>
+  </a>
+  <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="vite" width="40" height="40"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/>
+  </a>
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
+  </a>
+  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express" width="40" height="40"/>
+  </a>
+  <a href="https://flutter.dev" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="flutter" width="40" height="40"/>
+  </a>
+  <a href="https://dart.dev" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" alt="dart" width="40" height="40"/>
+  </a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  </a>
+  <a href="https://www.php.net" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+  </a>
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
+  </a>
+</p>
 
----
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px" alt="Stats" /> My Statistics
 
-<sub>Animated image: native 1440 × 430, 60 fps looping WebP. Full mouse-interactive Three.js version available via GitHub Pages. If the animation is restricted in your browser, switch to the included GIF alternative (`assets/banner-premium-30fps.gif`).</sub>
+<table align="center" style="border-collapse: collapse;">
+  <tr>
+    <td width="50%" align="center">
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=Rezafahmi17&theme=chartreuse-dark&show_icons=true&count_private=true" alt="GitHub Stats" />
+      <br><br>
+      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=Rezafahmi17&theme=chartreuse-dark&hide_border=false" />
+    </td>
+    <td width="50%" align="center">
+      <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Rezafahmi17&theme=chartreuse-dark&hide_border=false&langs_count=10" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+## 🚀 Featured Projects & Repositories
+
+| Project | Description | Main Stack | Links |
+|:--|:--|:--|:--|
+| **[MotionFolio](https://github.com/Rezafahmi17/Portofolio)** | Modern animated personal portfolio with smooth scrolling & interactive UI | `React` `Vite` `GSAP` `Lenis` | [Live Demo](https://portofolio-reza-fahmi-alkhamdani.netlify.app/) · [Repo](https://github.com/Rezafahmi17/Portofolio) |
+| **[Emosiku](https://github.com/Rezafahmi17/emosiku)** | Interactive emotion & mood tracking management web application | `JavaScript` `Web App` | [Live Demo](https://pengelolaan-emosiku.vercel.app/) · [Repo](https://github.com/Rezafahmi17/emosiku) |
+| **[Pengelolaan Kontrakan](https://github.com/Rezafahmi17/pengelolaankontrakan)** | Boarding house & rental property management application | `Flutter` `Dart` | [Repo](https://github.com/Rezafahmi17/pengelolaankontrakan) |
+| **[SIM ORMAWA](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima)** | Multi-tenant campus organization (HMJ & HIMA) management platform | `TypeScript` `Multi-Tenant` | [Live Demo](https://sim-ormawa-polinela.vercel.app/) · [Repo](https://github.com/Rezafahmi17/pengelolaan-ormawa-hmj-dan-hima) |
+| **[TemuToko (Tokotrif)](https://github.com/Rezafahmi17/tokotrif)** | Multi-store campus COD marketplace & real-time transaction workflow | `Next.js` `Express` `MySQL` | [Live Demo](https://tokotrif-polinela.vercel.app/) · [Repo](https://github.com/Rezafahmi17/tokotrif) |
+| **[JEKPOL Polinela](https://github.com/Rezafahmi17/jekpol-polinela)** | Campus transportation & ride-booking application for students and drivers | `Flutter` `Dart` `PHP` | [Repo](https://github.com/Rezafahmi17/jekpol-polinela) |
+| **[KEUANGANKU](https://github.com/Rezafahmi17/KEUANGANKU)** | Personal finance & digital wallet tracking web application | `HTML` `CSS` `JavaScript` | [Live Demo](https://dompetkeuanganku.netlify.app/) · [Repo](https://github.com/Rezafahmi17/KEUANGANKU) |
+| **[Universitas Nusantara](https://github.com/Rezafahmi17/UNIVERSITAS-NUSANTARA)** | Academic & campus information portal for Universitas Nusantara | `JavaScript` `HTML` `CSS` | [Live Demo](https://universitas-nusantara.netlify.app/) · [Repo](https://github.com/Rezafahmi17/UNIVERSITAS-NUSANTARA) |
+| **[TokoHub (Manajemen Toko)](https://github.com/Rezafahmi17/Manajemen-Toko)** | Multi-tenant store management for product sales, rentals, and reporting | `Next.js` `Express` `PostgreSQL` | [Repo](https://github.com/Rezafahmi17/Manajemen-Toko) |
+| **[Kopi Nusantara](https://github.com/Rezafahmi17/kopi-nusantara)** | QR-based cafe table ordering & admin dashboard ([BDL Branch](https://kopi-nusantara-bdl.netlify.app/)) | `React` `Node.js` `MySQL` | [Live Demo](https://kopi-nusantara-jawa.netlify.app/) · [Repo](https://github.com/Rezafahmi17/kopi-nusantara) |
+| **[Cari Makan Web](https://github.com/Rezafahmi17/Cari-Makan-Web)** | Online food ordering, cart system, and transaction status management | `React` `Express` `MySQL` | [Repo](https://github.com/Rezafahmi17/Cari-Makan-Web) |
+| **[SMA N 1 Rajabasa Permai Plus](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus)** | Official school profile & academic portal website | `JavaScript` `Web` | [Live Demo](https://sma-n-1-rajabasa-permai-plus.netlify.app/) · [Repo](https://github.com/Rezafahmi17/SMA-N-1-Rajabasa-Permai-Plus) |
+| **[EduMeta AI Chatbot](https://github.com/Rezafahmi17/chatbot)** | AI learning assistant powered by Gemini ([Streamlit Demo](https://github.com/Rezafahmi17/-chatbot-streamlit-demo)) | `Python` `Streamlit` `Gemini` | [Repo](https://github.com/Rezafahmi17/chatbot) |
+| **[Pengelolaan UKM, HMJ & HIMA](https://github.com/Rezafahmi17/Pengelolahan-UKM-HMJ-dan-HIMA)** | Web administration system for student activity units & organizations | `PHP` `MySQL` | [Repo](https://github.com/Rezafahmi17/Pengelolahan-UKM-HMJ-dan-HIMA) |
+| **[Keamanan Web Kantin](https://github.com/Rezafahmi17/versi-Aman-kantin)** | Web application security lab: [Secure Version](https://github.com/Rezafahmi17/versi-Aman-kantin) & [Vulnerable Version](https://github.com/Rezafahmi17/-versi-rentan-kantin) | `HTML` `Web Security` | [Repo](https://github.com/Rezafahmi17/versi-Aman-kantin) |
+
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rezafahmi17/Rezafahmi17/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rezafahmi17/Rezafahmi17/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/YhonV/YhonV/master/assets/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+<div align="center">
+  <sub>🐍 Contribution snake updates automatically via GitHub Actions · <a href="https://rezafahmi17.github.io/Rezafahmi17/"><b>Interactive 3D Version</b></a> · <a href="https://github.com/Rezafahmi17?tab=repositories"><b>View All 19 Repositories</b></a></sub>
+</div>
